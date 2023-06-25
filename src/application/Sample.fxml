@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ToolBar prefHeight="35.0" prefWidth="600.0" style="-fx-background-color: #006699;" />
+      <Pane layoutX="13.0" layoutY="36.0" prefHeight="84.0" prefWidth="573.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Label layoutX="21.0" layoutY="6.0" text="IT" textFill="#ed0000">
+               <font>
+                  <Font name="Arial" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="2.0" layoutY="32.0" text="Home" textFill="#ed0000">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="44.0" layoutY="32.0" text=" / My courses / ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="140.0" layoutY="32.0" text="THI CUỐI KỲ" textFill="#ed0000">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="424.0" layoutY="48.0" mnemonicParsing="false" style="-fx-background-color: #006699;" text="TURN EDITING ON" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="534.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="Button" />
+         </children>
+      </Pane>
+      <ScrollPane layoutX="14.0" layoutY="127.0" prefHeight="273.0" prefWidth="573.0" style="-fx-background-color: #FFFFFF;">
+         <content>
+            <VBox prefHeight="270.0" prefWidth="570.0" style="-fx-background-color: #EEEEEE;">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="197.0" style="-fx-background-color: #EEEEEE;" text="Kiểm tra cuối kỳ môn IT4895Q">
+                     <font>
+                        <Font name="Times New Roman" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #EEEEEE;" text="Thi thử KTLT">
+                     <font>
+                        <Font name="Times New Roman" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #EEEEEE;" text="Thi GK2 Tin học 7">
+                     <font>
+                        <Font name="Times New Roman" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #EEEEEE;" text="Thi GK2 Sử Địa 7">
+                     <font>
+                        <Font name="Times New Roman" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #EEEEEE;" text="Thi giữa kỳ 2 môn Công nghệ">
+                     <font>
+                        <Font name="Times New Roman" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" text="Button" />
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

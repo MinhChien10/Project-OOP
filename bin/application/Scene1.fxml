@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <ToolBar prefHeight="35.0" prefWidth="800.0" style="-fx-background-color: #006699;" />
+      <Pane layoutX="13.0" layoutY="35.0" prefHeight="102.0" prefWidth="773.0" style="-fx-background-color: #EEEEEE;">
+         <children>
+            <Label layoutX="20.0" layoutY="7.0" text="IT" textFill="#ed0000">
+               <font>
+                  <Font name="Arial" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="32.0" text="Home" textFill="#ed0000">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="32.0" text=" / My courses / ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="147.0" layoutY="32.0" text="THI CUỐI KỲ" textFill="#ed0000">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="624.0" layoutY="58.0" mnemonicParsing="false" onAction="#switchToScene5" style="-fx-background-color: #006699;" text="TURN EDITING ON" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="727.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="25.0" prefWidth="25.0" text="Button" />
+         </children>
+      </Pane>
+      <ScrollPane layoutX="13.0" layoutY="147.0" prefHeight="453.0" prefWidth="773.0" style="-fx-background-color: #FFFFFF;">
+         <content>
+            <VBox prefHeight="449.0" prefWidth="770.0" style="-fx-background-color: #EEEEEE;">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="324.0" style="-fx-background-color: #EEEEEE;" text="Kiểm tra cuối kỳ môn IT4895Q">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="185.0" style="-fx-background-color: #EEEEEE;" text="Thi thử KTLT">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="224.0" style="-fx-background-color: #EEEEEE;" text="Thi GK2 Tin học 7">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="218.0" style="-fx-background-color: #EEEEEE;" text="Thi GK2 Sử Địa 7">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="308.0" style="-fx-background-color: #EEEEEE;" text="Thi giữa kỳ 2 môn Công nghệ">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
